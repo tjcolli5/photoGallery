@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="author" content="Theodore Collins">
+        <meta name="description" content="photoGallery assignment">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>TK Photography</title>
+    </head>
+    <body>
+        <header>
+            <h1>TK Photography</h1>
+            <nav>
+                <ul>
+                    <li><a>ABOUT</a></li>
+                    <li><a>GALLERY</a></li>
+                    <li><a>CONTACT</a></li>
+                    <!-- <li><a>top</a></li> -->
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <section>
+                    <h2>ABOUT</h2>
+                    <p>Hello!</p>
+                    <p>I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. </p>
+                </section>
+                <section>
+                    <h2>GALLERY</h2>
+                    <p>Here are some highlights of my work. The locations and year are in the caption. </p>
+                </section>
+                <div class="photos">
+                    <div id="Chile">
+                        <img src="images/Chile.png" alt="Chile" width="300px">
+                        <p>Chile, 2001</p>
+                    </div>
+                    <div id="Guatemala">
+                        <img src="images/Guatemala.png" alt="Guatemala">
+                        <p>Guatemala, 1997</p>
+                    </div>
+                    <div id="Hawaii">
+                        <img src="images/Hawaii.png" alt="Hawaii">
+                        <p>Hawaii, 2010</p>
+                    </div>
+                    <div id="Iran">
+                        <img src="images/Iran.png" alt="Iran">
+                        <p>Iran, 1999</p>
+                    </div>
+                    <div id="Ireland">
+                        <img src="images/Ireland.png" alt="Ireland">
+                        <p>Ireland, 2012</p>
+                    </div>
+                    <div id="Guatemala">
+                        <img src="images/Guatemala.png" alt="Guatemala">
+                        <p>Guatemala, 1997</p>
+                    </div>
+                    <div id="Italy">
+                        <img src="images/Italy.png" alt="Italy">
+                        <p>Italy, 2015</p>
+                    </div>
+                    <div id="Moab-Desert">
+                        <img src="images/Moab-Desert.png" alt="Moab-Desert">
+                        <p>Moab-Desert, 2020</p>
+                    </div>
+                    <div id="Rocky-Mountains">
+                        <img src="images/Rocky-Mountains.png" alt="Rocky-Mountains">
+                        <p>Rocky-Mountains, 2009</p>
+                    </div>
+                    <div id="Switzerland">
+                        <img src="images/Switzerland.png" alt="Switzerland">
+                        <p>Switzerland, 2014</p>
+                    </div>
+                    <div id="UK">
+                        <img src="images/UK.png" alt="UK">
+                        <p>UK, 2005</p>
+                    </div>
+                    <div id="USA">
+                        <img src="images/USA.png" alt="USA">
+                        <p>USA, 2021</p>
+                    </div>
+                    <div id="Wyoming">
+                        <img src="images/Wyoming.png" alt="Wyoming">
+                        <p>Wyoming, 2021</p>
+                    </div>
+                </div>
+            </div>
+            <section class="contact">
+                <h2>CONTACT</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                <form action="/submit_form" method="post">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" placeholder="YOUR FULL NAME" required>
+                
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" placeholder="ENTER YOUR EMAIL ADDRESS" required>
+                
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="WHAT CAN I HELP YOU WITH?" required></textarea>
+                
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright 2021 TK Photography</p>
+        </footer>
+    </body>
+    </html>
